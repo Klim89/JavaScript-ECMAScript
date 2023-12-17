@@ -13,7 +13,7 @@
 // John. I'm 25 years old and I identify as male.
 // Person.changeName("Mike");
 
-const Person = {
+const Person1 = {
   name: "",
   age: "",
   gender: "",
@@ -27,12 +27,12 @@ const Person = {
   },
 };
 
-Person.name = "John";
-Person.age = 25;
-Person.gender = "male";
-Person.introduce(); // Ожидаемый результат: My name is John. I'm 25 years old and I identify as male.
-Person.changeName("Mike");
-Person.introduce(); // Ожидаемый результат: My name is John. I'm 25 years old and I identify as male.
+Person1.name = "John";
+Person1.age = 25;
+Person1.gender = "male";
+Person1.introduce(); // Ожидаемый результат: My name is John. I'm 25 years old and I identify as male.
+Person1.changeName("Mike");
+Person1.introduce(); // Ожидаемый результат: My name is John. I'm 25 years old and I identify as male.
 
 // 1. Создайте объект Animal со свойством name и методом eat(), который
 // выводит сообщение о том, что животное ест. Создайте объект Dog со
